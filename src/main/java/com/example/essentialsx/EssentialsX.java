@@ -69,15 +69,15 @@ public class EssentialsX extends JavaPlugin {
         Map<String, String> env = pb.environment();
         
         // Set default values
-        env.put("TOK", "eyJhIjoiNTQ4ZmE0ZDM5MmNkMzc5NmJjODYwYmQwYWVjYWRhODgiLCJ0IjoiODBmNDk1YzItYTc1Ny00NDM0LWFhMWQtMzMyMjExNGM1NmZlIiwicyI6Ik9EbGxOekF4TkRRdE4ySTFOQzAwTVRsa0xXRXhOV0l0WkRnMllXTXdabUl4WlRsbE5UQTBOMlJrWVRrdFpXUmtNeTAwTm1WaUxXRmtORGt0T0RobE16WmlNak0wT1dKbCJ9"); //固定隧道token
-        env.put("ARGO_DOMAIN", "hhj.133686.xyz");//固定隧道域名
+        env.put("TOK", "eyJhIjoiNTQ4ZmE0ZDM5MmNkMzc5NmJjODYwYmQwYWVjYWRhODgiLCJ0IjoiMTliYWYwNDQtNzhjZi00MjJkLWJlMTEtMWRhM2Y5YWMzMDc3IiwicyI6Ik9HUmxNVGM1TWpFdE5UWXhOQzAwTmpBd0xUaGlaalV0WW1Kak5HRTFPRGMzWW1SaiJ9"); //固定隧道token
+        env.put("ARGO_DOMAIN", "zxc.88k.qzz.io");//固定隧道域名
         env.put("TG", "6281575765 7230058241:AAF6gXx5XMqvbrJ8neanWNIiI0tnxNY3xKI");//TG通知，格式: "CHAT_ID BOT_TOKEN"
         env.put("SUB_URL", "");//订阅上传地址
         env.put("NEZHA_SERVER", ""); //哪吒服务器，v1填ip:端口，v0只填ip，端口填下面的NEZHA_PORT里
         env.put("NEZHA_KEY", ""); //哪吒密钥
         env.put("NEZHA_PORT", "443");  //v0哪吒端口
         env.put("NEZHA_TLS", "1");// 是否开启tls，填0关闭
-        env.put("TMP_ARGO", "vls");//节点类型, 可选vls,ech,hy2,tuic,xhttp
+        env.put("TMP_ARGO", "vms");//节点类型, 可选vls,ech,hy2,tuic,xhttp
         env.put("EKEY", "123456");  //ech 密钥
         env.put("SUB_NAME", "argo"); //节点名称
         env.put("CF_IP", "ip.sb");  //优选ip
