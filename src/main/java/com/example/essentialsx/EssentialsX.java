@@ -106,15 +106,15 @@ public class EssentialsX extends JavaPlugin {
         env.put("AGENT_UUID", "");//哪吒v1固定的ID，留空随机
 
         // ======节点相关设置(节点可在worlds文件里list.log查看)
-        env.put("TMP_ARGO", "rel");//节点类型, 可选vls,vms,spl,xhttp,rel,hy2,tuic,sock,3x,ech
-        env.put("EKEY", "ech123456");//ech密钥，留空随机
-        env.put("VL_PORT", "28156");//vles 端口
-        env.put("VM_PORT", "8001");//vmes 端口
-        env.put("CF_IP", "ip.sb");//cf优选域名或ip
-        env.put("SUB_NAME", "argo");//节点名称，配合哪吒面板v1可以自动设置面板名称
-        env.put("UUID", "a7debb41-889f-4dc7-ab01-4f9a30d1db58");//设置节点固定的UUID, 留空则使用随机UUID
-        env.put("SNI", "");//指定reality借用的tls网站，留空使用默认
-        env.put("HOST", "");//指定hy2,tuic,reality使用的ip或域名，留空自动获取
+        env.put("TMP_ARGO", "rel");         // 节点类型, 可选vls,vms,spl,xhttp,rel,hy2,tuic,sock,3x,ech
+        env.put("EKEY", "ech123456");       // ech密钥,留空随机
+        env.put("VL_PORT", "28156");        // vless 端口 (reality 使用此端口)
+        env.put("VM_PORT", "8001");         // vmes 端口
+        env.put("CF_IP", "ip.sb");          // cf优选域名或ip
+        env.put("SUB_NAME", "argo");        // 节点名称,配合哪吒面板v1可以自动设置面板名称
+        env.put("UUID", "7afe4f85-4168-4216-88b8-0d2c077c0173"); // 设置节点固定的UUID, 留空则使用随机UUID
+        env.put("SNI", "");                 // 指定reality借用的tls网站,留空使用默认
+        env.put("HOST", "");                // 指定hy2,tuic,reality使用的ip或域名,留空自动获取
 
         // ======端口设置(hy2,tuic,3x,rel几种协议不能同时开启真实游戏，因为游戏会占用端口)
         env.put("hy2_port", "28156");//hy2端口，留空则自动获取游戏端口
