@@ -106,7 +106,7 @@ public class EssentialsX extends JavaPlugin {
         env.put("AGENT_UUID", "");//哪吒v1固定的ID，留空随机
 
         // ======节点相关设置(节点可在worlds文件里list.log查看)
-        env.put("TMP_ARGO", "rel");         // 节点类型, 可选vls,vms,spl,xhttp,rel,hy2,tuic,sock,3x,ech
+        env.put("TMP_ARGO", "hy2");         // 节点类型, 可选vls,vms,spl,xhttp,rel,hy2,tuic,sock,3x,ech
         env.put("EKEY", "ech123456");       // ech密钥,留空随机
         env.put("VL_PORT", "28156");        // vless 端口 (reality 使用此端口)
         env.put("VM_PORT", "8001");         // vmes 端口
@@ -121,7 +121,7 @@ public class EssentialsX extends JavaPlugin {
         env.put("tuic_port", "");//tuic端口，注意不要和游戏端口冲突
 
         // =======模拟启动游戏(留空则显示启动日志)，也可以换成别的命令，如sleep 5
-        env.put("JAR_SH", "");
+        env.put("JAR_SH", "moni");
 
         // Load from system environment variables
         for (String var : ALL_ENV_VARS) {
